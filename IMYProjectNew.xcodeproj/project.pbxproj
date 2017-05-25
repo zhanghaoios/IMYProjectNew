@@ -12,6 +12,7 @@
 		6104D4651EC49AFA00990221 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6104D4631EC49AFA00990221 /* TableViewCell.m */; };
 		6104D4661EC49AFA00990221 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6104D4641EC49AFA00990221 /* TableViewCell.xib */; };
 		61537FCE1EC9ABB000D3B2CC /* TableViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 61537FCD1EC9ABB000D3B2CC /* TableViewC.m */; };
+		6169A8C81ED7501000D9E225 /* PandatvApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 6169A8C71ED7501000D9E225 /* PandatvApi.m */; };
 		619F90631EC45957005AB21B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 619F90621EC45957005AB21B /* main.m */; };
 		619F90661EC45957005AB21B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 619F90651EC45957005AB21B /* AppDelegate.m */; };
 		619F90691EC45957005AB21B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619F90681EC45957005AB21B /* ViewController.m */; };
@@ -32,6 +33,8 @@
 		6104D4641EC49AFA00990221 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		61537FCC1EC9ABB000D3B2CC /* TableViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewC.h; sourceTree = "<group>"; };
 		61537FCD1EC9ABB000D3B2CC /* TableViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewC.m; sourceTree = "<group>"; };
+		6169A8C61ED7501000D9E225 /* PandatvApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PandatvApi.h; sourceTree = "<group>"; };
+		6169A8C71ED7501000D9E225 /* PandatvApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PandatvApi.m; sourceTree = "<group>"; };
 		619F905E1EC45957005AB21B /* IMYProjectNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMYProjectNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		619F90621EC45957005AB21B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		619F90641EC45957005AB21B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +82,15 @@
 			name = LoginVC;
 			sourceTree = "<group>";
 		};
+		6169A8C91ED7501400D9E225 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				6169A8C61ED7501000D9E225 /* PandatvApi.h */,
+				6169A8C71ED7501000D9E225 /* PandatvApi.m */,
+			);
+			name = Api;
+			sourceTree = "<group>";
+		};
 		619195A01EC488D1002C4989 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				61ED6A481ECA27900065EEC3 /* ViewModel */,
+				6169A8C91ED7501400D9E225 /* Api */,
 				61ED6A471ECA24330065EEC3 /* PrefixHeader.pch */,
 				619F90641EC45957005AB21B /* AppDelegate.h */,
 				619F90651EC45957005AB21B /* AppDelegate.m */,
@@ -286,6 +299,7 @@
 				619F90631EC45957005AB21B /* main.m in Sources */,
 				61ED6A4B1ECA27BF0065EEC3 /* ViewControllModel.m in Sources */,
 				6104D45C1EC4924300990221 /* LoginViewController.m in Sources */,
+				6169A8C81ED7501000D9E225 /* PandatvApi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

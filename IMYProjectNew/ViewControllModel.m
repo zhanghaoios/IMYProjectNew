@@ -7,7 +7,7 @@
 //
 
 #import "ViewControllModel.h"
-
+#import "PandatvApi.h"
 @implementation ViewControllModel
 
 + (instancetype)viewModelWith {
@@ -30,11 +30,20 @@
  
     return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
         
-        [subscriber sendNext:@"网络数据"];
-        [subscriber sendCompleted];
+        PandatvApi *pan = [[PandatvApi alloc] initWithApi];
+        [pan startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest *request) {
+            
+            NSLog(@"%@",request.responseJSONObject);
+
+        } failure:^(__kindof YTKBaseRequest *request) {
+            NSLog(@"%@",request.responseJSONObject);
+
+        }];
+        
+        
+//        [subscriber sendNext:@"网络数据"];
+//        [subscriber sendCompleted];
         return nil;
     }];
-    
-            
 }
 @end

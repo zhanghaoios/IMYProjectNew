@@ -16,4 +16,10 @@
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import <ReactiveCocoa/RACEXTScope.h>
 
+
+#define PanTv @"http://api.m.panda.tv/ajax_get_live_list_by_multicate"
+
+
+
+
 #endif /* PrefixHeader_pch */
