@@ -14,6 +14,26 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AsyncDisplayKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PINCache.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PINOperation.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PINRemoteImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-IMYProjectNew.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,7 +67,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4713411C87DFD7646F256FDBD56E5538</key>
+		<key>10DF1EBE60E5DCD9E68524E72B0E5B98</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1A65D9E3B57CE5415A0567A9CB8BE33D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>37D72476F3061BE8A12A62329EE8A82A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,22 +87,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7C73629E40577575FEB9BF794FCE5665</key>
+		<key>5232B3CB536810CA15CB2CC7453FD7AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9C2F1A0A512AFFCC1EF8D58A24845F3E</key>
+		<key>75484E9FC8379B0447FF84F736CC0E85</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>ADC749D3294E50E01390FE4DAF5F29F6</key>
+		<key>B7C1B9F72EFFB033676FDCD5E0E22DDD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FDA5044B7679AAA58D6141CE3D0EF643</key>
+		<key>D583343C8A1B3665460B170B58321CA0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D863DF209AFF2C56879854880B5ABD64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E0A59FEBE757722BE4BBBFADC6E5DD94</key>
 		<dict>
 			<key>primary</key>
 			<true/>
