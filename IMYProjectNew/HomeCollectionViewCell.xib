@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="gTV-IL-0wX" customClass="HomeCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="235" height="153"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="235" height="153"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="6Lm-7u-wkL">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="119"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="张浩无敌啦啦啦啦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mb3-Pu-hZN">
+                        <rect key="frame" x="8" y="88" width="90" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="是的" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8nx-IV-7fe">
+                        <rect key="frame" x="8" y="124" width="35" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="放屁" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DiM-Wa-1Xo">
+                        <rect key="frame" x="178" y="124" width="35" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="8nx-IV-7fe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="0PX-9q-o8x"/>
+                <constraint firstAttribute="bottom" secondItem="6Lm-7u-wkL" secondAttribute="bottom" constant="34" id="0To-kx-fTk"/>
+                <constraint firstItem="8nx-IV-7fe" firstAttribute="top" secondItem="6Lm-7u-wkL" secondAttribute="bottom" constant="5" id="A49-BP-SUS"/>
+                <constraint firstItem="6Lm-7u-wkL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Hji-8O-KcH"/>
+                <constraint firstItem="mb3-Pu-hZN" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="88" id="KVL-3B-bdJ"/>
+                <constraint firstAttribute="bottom" secondItem="mb3-Pu-hZN" secondAttribute="bottom" constant="44" id="NJA-3r-wrh"/>
+                <constraint firstItem="6Lm-7u-wkL" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="QW5-ST-ygD"/>
+                <constraint firstAttribute="trailing" secondItem="6Lm-7u-wkL" secondAttribute="trailing" constant="-5" id="SwQ-kJ-b2y"/>
+                <constraint firstItem="DiM-Wa-1Xo" firstAttribute="top" secondItem="6Lm-7u-wkL" secondAttribute="bottom" constant="5" id="W9L-s5-ZlV"/>
+                <constraint firstAttribute="bottom" secondItem="DiM-Wa-1Xo" secondAttribute="bottom" constant="8" id="Zgw-tV-zgp"/>
+                <constraint firstAttribute="trailing" secondItem="DiM-Wa-1Xo" secondAttribute="trailing" constant="22" id="hAC-gH-xWT"/>
+                <constraint firstAttribute="bottom" secondItem="8nx-IV-7fe" secondAttribute="bottom" constant="8" id="ifM-Oc-0aL"/>
+                <constraint firstItem="mb3-Pu-hZN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="v6c-5s-Ovb"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="LOGO" width="90" height="90"/>
+    </resources>
+</document>

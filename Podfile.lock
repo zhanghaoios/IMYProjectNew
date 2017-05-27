@@ -29,6 +29,7 @@ PODS:
     - AsyncDisplayKit/Core
     - PINRemoteImage/iOS (= 3.0.0-beta.8)
     - PINRemoteImage/PINCache
+  - JPFPSStatus (0.1)
   - PINCache (3.0.1-beta.4):
     - PINCache/Arc-exception-safe (= 3.0.1-beta.4)
     - PINCache/Core (= 3.0.1-beta.4)
@@ -61,6 +62,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (= 2.6.3)
   - AsyncDisplayKit
+  - JPFPSStatus
   - ReactiveCocoa (~> 2.5)
   - SDWebImage (= 3.8.1)
   - YTKNetwork (= 1.1.0)
@@ -70,6 +72,7 @@ SPEC CHECKSUMS:
   AFDownloadRequestOperation: 748a1643423e1ddb23f2178f778087d4f0ae8ac7
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   AsyncDisplayKit: 2234dd8d8770a5ed72936b3f8394bd5a807765f6
+  JPFPSStatus: 4467a17488382e4c1700bd9d18c92ae581fd6305
   PINCache: a89c8f609232afac77128557bd12c861844423d7
   PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
   PINRemoteImage: c4f9f16932840c597f32e69dd288e10e111a1929
@@ -78,6 +81,6 @@ SPEC CHECKSUMS:
   YTKNetwork: a41c1df80d4f3b9d05c19c514a2c604e7a6ac341
   YYModel: 4da6b5c42a850e5c81c800de5ba69afe675c6e6f
 
-PODFILE CHECKSUM: e3783bc4ae6dcbab05c71011691437fc4ce16567
+PODFILE CHECKSUM: 4e1de55082fb2e2a5438acbc45794ff299579e2a
 
 COCOAPODS: 1.2.1

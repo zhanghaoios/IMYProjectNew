@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>JPFPSStatus.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>PINCache.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -67,17 +72,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>10DF1EBE60E5DCD9E68524E72B0E5B98</key>
+		<key>35D67D32D427667B1461334F8FBDCD85</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1A65D9E3B57CE5415A0567A9CB8BE33D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>37D72476F3061BE8A12A62329EE8A82A</key>
+		<key>40A85D0A5887F983D848E00DD6C17A42</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,17 +92,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>6438690E1680AC71EA2DD4DDA5BA860A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>75484E9FC8379B0447FF84F736CC0E85</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B7C1B9F72EFFB033676FDCD5E0E22DDD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D583343C8A1B3665460B170B58321CA0</key>
+		<key>AC7D1ED0FF360BE563712FB2B490AAD8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,7 +112,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>DADBC752DE5C75664934E7A434003211</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E0A59FEBE757722BE4BBBFADC6E5DD94</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F2EF650EE853CD63FD86736CCE1B131F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

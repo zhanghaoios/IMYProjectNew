@@ -33,10 +33,10 @@
         PandatvApi *pan = [[PandatvApi alloc] initWithApi];
         [pan startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest *request) {
             
-            NSLog(@"%@",request.responseJSONObject);
+            NSLog(@"%@",[request.responseJSONObject objectForKey:@"data"]);
 
         } failure:^(__kindof YTKBaseRequest *request) {
-            NSLog(@"%@",request.responseJSONObject);
+            NSLog(@"%@",[request.responseJSONObject objectForKey:@"data"]);
 
         }];
         

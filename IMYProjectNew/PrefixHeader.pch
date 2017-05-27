@@ -15,10 +15,13 @@
 #import "YYModel.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import <ReactiveCocoa/RACEXTScope.h>
+#import "MacroDefinition.h"
+#import "JPFPSStatus.h"
 
 
 #define PanTv @"http://api.m.panda.tv/ajax_get_live_list_by_multicate"
 
+#define PanTvHomeList @"http://api.m.panda.tv/ajax_rmd_ads_get"
 
 
 
